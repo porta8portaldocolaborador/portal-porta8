@@ -37,9 +37,9 @@ body {
   z-index: 100;
 }
 
-.nav-logo img { height: 36px; }
+nav-logo img { height: 36px; max-width: 120px; object-fit: contain; }
 
-.nav-links { display: flex; gap: 2rem; }
+.nav-links { display: flex; gap: 2rem; margin-left: 1rem; }
 .nav-links a {
   color: rgba(255,255,255,0.85);
   text-decoration: none;
