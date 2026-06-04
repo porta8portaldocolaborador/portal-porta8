@@ -51,7 +51,7 @@ body {
 .nav-links a:hover { color: #fff; }
 .nav-links a.active { color: #fff; border-bottom: 2px solid var(--laranja); padding-bottom: 2px; }
 
-.nav-right { display: flex; align-items: center; gap: 12px; }
+.nav-right { display: flex; align-items: center; gap: 12px; margin-left: auto; }
 .nav-label { color: rgba(255,255,255,0.7); font-size: 12px; }
 
 /* HERO */
@@ -174,7 +174,7 @@ body {
 /* DIVIDER */
 .divider { height: 1px; background: var(--borda); margin: 1.5rem 0; }
 
-/* WIDGET CARD (reflexão, aniversariantes, recados) */
+/* WIDGET */
 .widget {
   background: #fff;
   border-radius: var(--radius);
